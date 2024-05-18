@@ -1,0 +1,19 @@
+.top-categories {
+  padding: 33px 0 35px;
+
+  &__title {
+    margin-bottom: 22px;
+  }
+
+  &__list {
+    gap: $top-categories-gap;
+  }
+
+  &__item {
+    min-height: 206px;
+
+    &_1 {
+      min-height: 332px;
+    }
+  }
+}

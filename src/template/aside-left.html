@@ -1,0 +1,93 @@
+<h2 class="title title_small-sm aside-left__title">
+  Фильтровать&nbsp;по:
+</h2>
+<ul class="list-reset aside-left__list">
+  <li class="aside-left__item aside-left__item_1">
+    <h3 class="title title_tiny title_semi-bold title_grey-shade aside-left__subtitle aside-left__subtitle_1">
+      Цвет
+    </h3>
+    <ul class="list-reset aside-left__sublist">
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="color-brown">
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Коричневый
+          </span>
+        </label>
+      </li>
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="color-black" checked>
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Черный
+          </span>
+        </label>
+      </li>
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="color-blue">
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Синий
+          </span>
+        </label>
+      </li>
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="color-white">
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Белый
+          </span>
+        </label>
+      </li>
+    </ul>
+  </li>
+  <li class="aside-left__item aside-left__item_2">
+    <h3 class="title title_tiny title_semi-bold title_grey-shade aside-left__subtitle aside-left__subtitle_2">
+      Категория
+    </h3>
+    <ul class="list-reset aside-left__sublist">
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="type-sofas" checked>
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Диваны
+          </span>
+        </label>
+      </li>
+      <li class="aside-left__subitem">
+        <label class="checkbox aside-left__checkbox-label">
+          <input class="checkbox__input aside-left__checkbox-input" type="checkbox" name="type-chairs">
+          <span class="checkbox__span text text_grey-shade aside-left__checkbox-span">
+            Кресла
+          </span>
+        </label>
+      </li>
+    </ul>
+  </li>
+  <li class="aside-left__item aside-left__item_3">
+    <h3 class="title title_tiny title_semi-bold title_grey-shade aside-left__subtitle aside-left__subtitle_3">
+      Цена
+    </h3>
+    <span class="text text_grey-shade aside-left__price">
+      от
+    </span>
+    <label class="aside-left__label">
+      <span class="visually-hidden">
+        Минимальная цена
+      </span>
+      <input class="input input_short aside-left__input" type="number" name="price-min" min="0" placeholder="2000">
+    </label>
+    <span class="text text_grey-shade aside-left__price">
+      до
+    </span>
+    <label class="aside-left__label">
+      <span class="visually-hidden">
+        Максимальная цена
+      </span>
+      <input class="input input_short aside-left__input" type="number" name="price-max" min="0" placeholder="150 000">
+    </label>
+  </li>
+</ul>
+<article class="mini-oxford aside-left__article">
+  @@include('mini-oxford.html')
+</article>

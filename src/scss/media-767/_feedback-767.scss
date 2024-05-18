@@ -1,0 +1,32 @@
+.feedback {
+  padding: 35px 0 65px;
+  @include text-rubber;
+
+  &__left {
+    grid-column: span 6;
+  }
+
+  &__container {
+    &::after {
+      content: unset;
+    }
+  }
+
+  &__btn {
+    padding: 16px 34px 16px 33px;
+  }
+
+  &__checkbox-span,
+  &__checkbox-link {
+    font-size: $text-small;
+  }
+
+  &__checkbox-span {
+    padding-left: 20px;
+
+    &::before,
+    &::after {
+      top: 0;
+    }
+  }
+}

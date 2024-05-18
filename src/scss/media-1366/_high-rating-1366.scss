@@ -1,0 +1,18 @@
+.high-rating {
+  &__list {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  &__item {
+    grid-column: span 3;
+
+    &_item7,
+    &_item8 {
+      display: none;
+    }
+  }
+
+  &__link {
+    padding: 17px 33px 15px;
+  }
+}

@@ -1,0 +1,45 @@
+<article class="card special__article special__article_@@card-number">
+  <div class="card__holder special__holder special__holder_@@card-number">
+    <picture class="block card__pic special__pic special__pic_@@card-number">
+      <source media="(max-width: 1366px)" srcset="@@img.1024" type="image/webp">
+      <img class="card__img special__img special__img_@@card-number" src="@@img.1920" loading="lazy" alt="@@alt">
+    </picture>
+  </div>
+  <div class="card__inner special__inner special__inner_@@card-number">
+    <h3 class="title title_small card__title special__subtitle special__subtitle_@@card-number">
+      @@category
+      <span class="block card__model special__model special__model_@@card-number">
+        @@model
+      </span>
+    </h3>
+    <div class="card__box special__box special__box_@@card-number">
+      <span class="visually-hidden">
+        Цена
+      </span>
+      <span class="text text_big text_crusta card__price special__price special__price_@@card-number">
+        @@price.new
+      </span>
+      <span class="visually-hidden">
+        Цена с скидкой
+      </span>
+      <span
+        class="text text_grey text_line-through card__price card__price_old special__old special__old_@@card-number">
+        @@price.old
+      </span>
+    </div>
+    <div class="card__wrap special__wrap @@large special__wrap_@@card-number">
+      <a class="btn btn_ambush card__link special__link special__link_@@card-number" href="#">
+        Купить
+      </a>
+    </div>
+  </div>
+  <div class="text text_small text_white card__discount special__discount special__discount_@@card-number">
+    <span class="visually-hidden">
+      Скидка
+    </span>
+    @@discount
+    <svg class="card__discount-icon special__discount-icon" xmlns="http://www.w3.org/2000/svg">
+      <use xlink:href="img/sprite.svg#discount"></use>
+    </svg>
+  </div>
+</article>

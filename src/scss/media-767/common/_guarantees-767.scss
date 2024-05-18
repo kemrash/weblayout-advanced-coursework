@@ -1,0 +1,44 @@
+.guarantees {
+  &__title {
+    margin-bottom: 14px;
+  }
+
+  &__list {
+    margin-bottom: 22px;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-bottom: 13px;
+    }
+  }
+
+  &__text {
+    line-height: 179%;
+
+    &_2,
+    &_3 {
+      position: relative;
+    }
+
+    &_2 {
+      top: -2px;
+    }
+
+    &_3 {
+      top: -5px;
+    }
+  }
+
+  &__br {
+    display: block;
+  }
+
+  &__desc {
+    min-height: 54px;
+    padding: 5px 10px 5px 52px;
+    font-size: $text-normal;
+    background-image: url("../img/guarantees-320.webp");
+    background-size: 36px 54px;
+  }
+}

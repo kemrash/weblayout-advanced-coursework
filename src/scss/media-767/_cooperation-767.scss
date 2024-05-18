@@ -1,0 +1,16 @@
+.cooperation {
+  padding: 19px 0 49px;
+  @include text-rubber;
+
+  &__title {
+    letter-spacing: .1px;
+  }
+
+  &__subtitle {
+    font-size: $title-small;
+  }
+
+  &__text {
+    font-size: $text-small-lg;
+  }
+}

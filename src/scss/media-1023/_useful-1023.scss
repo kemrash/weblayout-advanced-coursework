@@ -1,0 +1,17 @@
+.useful {
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  &__item {
+    grid-column: span 3;
+
+    &_3 {
+      display: none;
+    }
+  }
+}

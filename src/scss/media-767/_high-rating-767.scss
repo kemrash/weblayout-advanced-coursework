@@ -1,0 +1,63 @@
+.high-rating {
+  padding: 34px 0 70px;
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    gap: $high-rating-gap;
+  }
+
+  &__item {
+    min-height: 278px;
+  }
+
+  &__article {
+    &_item1 {
+      padding: 53px 0 16px;
+    }
+
+    &_item4 {
+      padding: 43px 0 16px;
+    }
+
+    &_item5 {
+      padding: 45px 0 16px;
+    }
+
+    &_item6 {
+      padding: 46px 0 16px;
+    }
+  }
+
+  &__subtitle {
+    &_item6 {
+      padding-left: 2px;
+    }
+  }
+
+  &__holder {
+    &_item1 {
+      margin-bottom: 21px;
+    }
+
+    &_item4 {
+      margin-bottom: 11px;
+    }
+
+    &_item5 {
+      margin-bottom: 14px;
+    }
+
+    &_item6 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__link {
+    &_item6 {
+      left: 0;
+    }
+  }
+}

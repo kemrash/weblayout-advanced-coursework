@@ -1,0 +1,93 @@
+.special {
+  padding: 30px 0 35px;
+
+  &__title {
+    margin-bottom: 26px;
+    line-height: 24px;
+  }
+
+  &__list {
+    gap: $card-gap;
+  }
+
+  &__item {
+    grid-column: span 6;
+
+    &_3,
+    &_4,
+    &_5,
+    &_6 {
+      display: block;
+    }
+  }
+
+  &__article {
+    padding: 30px 0;
+  }
+
+  &__holder {
+    margin-bottom: 17px;
+    height: 252px;
+
+    &_item2 {
+      margin-bottom: 49px;
+      height: 220px;
+    }
+
+    &_item5 {
+      margin-bottom: 56px;
+      height: 213px;
+    }
+
+    &_item4,
+    &_item6 {
+      position: relative;
+      left: -1px;
+    }
+  }
+
+  &__inner {
+    padding: 0 30px;
+  }
+
+  &__subtitle {
+    font-size: $title-normal;
+
+    &_item6 {
+      letter-spacing: 0.2px;
+    }
+  }
+
+  &__model {
+    &_item6 {
+      letter-spacing: 0;
+    }
+  }
+
+  &__price,
+  &__old {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    padding: 16px 33px 15px;
+
+    &_item2,
+    &_item3,
+    &_item6 {
+      padding: 16px 34px 15px;
+    }
+  }
+
+  &__discount {
+    &_item4,
+    &_item6 {
+      padding: 9px 5px 9px 25px;
+    }
+
+    &_item5 {
+      padding: 9px 5px 9px 16px;
+    }
+  }
+}

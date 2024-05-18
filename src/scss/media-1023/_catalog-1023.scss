@@ -1,0 +1,48 @@
+.catalog {
+  padding: 7px 0 70px;
+
+  &__container {
+    gap: $catalog-gap;
+  }
+
+  &__title {
+    margin-bottom: 1px;
+  }
+
+  &__list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  &__item {
+    grid-column: span 3;
+
+    &_item3 {
+      order: 4;
+    }
+
+    &_item4 {
+      order: 3;
+    }
+
+    &_item5 {
+      order: 5;
+    }
+
+    &_item6 {
+      order: 6;
+    }
+
+    &_item7,
+    &_item8,
+    &_item9 {
+      display: none;
+    }
+  }
+
+  &__pic {
+    &_item5 {
+      position: relative;
+      left: -1px;
+    }
+  }
+}

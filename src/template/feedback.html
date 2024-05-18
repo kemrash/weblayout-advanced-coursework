@@ -1,0 +1,42 @@
+<div class="container feedback__container">
+  <div class="feedback__left">
+    <h2 class="title feedback__title" id="form-title">
+      Мы&nbsp;всегда вам рады!
+    </h2>
+    <p class="text text_small text_grey-shade feedback__text">
+      Безусловно, новая модель организационной деятельности в&nbsp;значительной степени обусловливает важность
+      распределения внутренних резервов и&nbsp;ресурсов.
+    </p>
+    <fieldset class="fieldset-reset feedback__fieldset" aria-labelledby="form-title">
+      <form class="feedback__form" action="https://jsonplaceholder.typicode.com/posts" method="POST">
+        <label class="feedback__label">
+          <input class="input input_long feedback__input" type="text" name="name" placeholder="Как вас зовут?"
+            autocomplete="on" required>
+        </label>
+        <label class="feedback__label">
+          <input class="input input_long feedback__input" type="tel" name="phone" placeholder="Ваш телефон"
+            autocomplete="on">
+        </label>
+        <label class="feedback__label">
+          <input class="input input_long feedback__input" type="email" name="email" placeholder="Ваш e-mail"
+            autocomplete="on" required>
+        </label>
+        <div class="feedback__wrap">
+          <button class="btn-reset btn btn_big btn_medium-purple btn_semi-bold feedback__btn">
+            Отправить
+          </button>
+        </div>
+        <label class="checkbox feedback__checkbox-label">
+          <input class="checkbox__input feedback__checkbox-input" type="checkbox" name="rules" checked>
+          <span class="checkbox__span text text_small text_black feedback__checkbox-span">
+            Принимаю
+            <a class="checkbox__link text text_small text_medium-purple link link_short feedback__checkbox-link"
+              href="#">
+              пользовательское соглашение
+            </a>
+          </span>
+        </label>
+      </form>
+    </fieldset>
+  </div>
+</div>

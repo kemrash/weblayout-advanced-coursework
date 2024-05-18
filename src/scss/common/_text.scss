@@ -1,0 +1,65 @@
+.text {
+  margin: 0;
+  font-size: $text-normal;
+  font-weight: 400;
+
+  &_tiny {
+    font-size: $text-tiny;
+  }
+
+  &_small {
+    font-size: $text-small;
+  }
+
+  &_big {
+    font-size: $text-big;
+  }
+
+  &_huge {
+    font-size: $text-huge;
+  }
+
+  &_big-cost {
+    font-size: $text-big-cost;
+  }
+
+  &_white {
+    color: $white;
+  }
+
+  &_crusta {
+    color: $crusta;
+  }
+
+  &_grey {
+    color: $grey;
+  }
+
+  &_black {
+    color: $black;
+  }
+
+  &_grey-shade {
+    color: $grey-shade;
+  }
+
+  &_medium-purple {
+    color: $medium-purple;
+  }
+
+  &_primary-shade {
+    color: $primary-shade;
+  }
+
+  &_semi-bold {
+    font-weight: 600;
+  }
+
+  &_bold {
+    font-weight: 700;
+  }
+
+  &_line-through {
+    @include line-through;
+  }
+}

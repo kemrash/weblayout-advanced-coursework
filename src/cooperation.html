@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Сотрудничество. SitDownPls - интернет-магазин мебели.</title>
+  <link href="fonts/OpenSans-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  @@include('template/favicon.html')
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/cooperation-style.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header header_cooperation">
+    @@include('template/header.html')
+    <div class="container header__container">
+      <nav class="breadcrumb header__breadcrumb" aria-label="Хлебные крошки">
+        <ul class="list-reset breadcrumb__list">
+          <li class="breadcrumb__item breadcrumb__item_1">
+            <a class="text text_small text_grey link link_grey breadcrumb__link breadcrumb__link_1"
+              href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumb__item breadcrumb__item_4">
+            <span class="text text_small text_primary-shade breadcrumb__active" aria-current="page">
+              Сотрудничество
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="cooperation">
+      @@include('template/section-cooperation.html')
+    </section>
+  </main>
+
+  <footer class="footer">
+    @@include('template/footer.html')
+  </footer>
+</body>
+
+</html>

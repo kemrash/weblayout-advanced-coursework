@@ -1,0 +1,23 @@
+.special {
+  &__title {
+    margin-bottom: 23px;
+  }
+
+  &__list {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  &__item {
+    &_3 {
+      display: none;
+    }
+  }
+
+  &__link {
+    padding: 16px 33px 15px;
+
+    &_item2 {
+      padding: 16px 34px 15px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.aside-left {
+  &__subtitle {
+    font-size: $title-small;
+  }
+
+  &__list {
+    gap: $aside-left-list-gap;
+  }
+
+  &__item {
+    min-width: unset;
+  }
+
+  &__subtitle {
+    margin-bottom: 10px;
+
+    &_3 {
+      margin-bottom: 5px;
+    }
+  }
+}

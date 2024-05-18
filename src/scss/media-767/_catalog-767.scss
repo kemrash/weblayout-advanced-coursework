@@ -1,0 +1,71 @@
+.catalog {
+  padding: 15px 0 70px;
+
+  &__box {
+    padding-top: 8px;
+  }
+
+  &__list {
+    gap: $catalog-card-gap;
+  }
+
+  &__item {
+    min-height: 278px;
+
+    &_item3 {
+      order: 3;
+    }
+
+    &_item4 {
+      order: 4;
+    }
+  }
+
+  &__article {
+    &_item1 {
+      padding: 53px 0 16px;
+    }
+
+    &_item4 {
+      padding: 43px 0 16px;
+    }
+
+    &_item5 {
+      padding: 45px 0 16px;
+    }
+
+    &_item6 {
+      padding: 46px 0 16px;
+    }
+  }
+
+  &__holder {
+    &_item1 {
+      margin-bottom: 22px;
+    }
+
+    &_item4 {
+      left: 0;
+      margin-bottom: 12px;
+    }
+
+    &_item5,
+    &_item6 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__pic {
+    &_item5 {
+      left: 0;
+    }
+  }
+
+  &__link {
+    padding: 9px 23px 8px;
+
+    &_item6 {
+      left: 0;
+    }
+  }
+}

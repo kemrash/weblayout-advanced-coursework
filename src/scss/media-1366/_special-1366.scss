@@ -1,0 +1,54 @@
+.special {
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__list {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  &__item {
+    &_wide {
+      grid-column: span 3;
+    }
+  }
+
+  &__article {
+    &_item2 {
+      background-image: none;
+    }
+  }
+
+  &__holder {
+    height: 252px;
+
+    &_item2 {
+      margin-bottom: 49px;
+      height: 220px;
+    }
+  }
+
+  &__pic {
+    &_item2 {
+      position: relative;
+      left: -3px;
+    }
+  }
+
+  &__link {
+    &_item2,
+    &_item3 {
+      padding: 16px 34px;
+    }
+  }
+
+  &__discount {
+    &_item2 {
+      padding: 9px 5px 9px 15px;
+    }
+
+    &_item3 {
+      padding: 9px 5px 9px 26px;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SitDownPls - интернет-магазин мебели.</title>
+  <link href="fonts/OpenSans-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  @@include('template/favicon.html')
+  <link href="img/hero-320.webp" rel="preload" media="(max-width: 450px)" as="image" type="image/webp">
+  <link href="/img/hero-320-x2.webp" rel="preload" media="(min-width: 451px) and (max-width: 767px)" as="image">
+  <link href="img/hero-768.webp" rel="preload" media="(min-width: 768px) and (max-width: 1023px)" as="image"
+    type="image/webp">
+  <link href="img/hero-1024.webp" rel="preload" media="(min-width: 1024px) and (max-width: 1366px)" as="image"
+    type="image/webp">
+  <link href="img/hero-1920.webp" rel="preload" media="(min-width: 1367px)" as="image" type="image/webp">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header header_index">
+    @@include('template/header.html')
+  </header>
+
+  <main class="main">
+    <h1 class="visually-hidden">
+      SitDownPls - интернет-магазин мебели
+    </h1>
+    <section class="hero" id="hero">
+      @@include('template/hero.html')
+    </section>
+    <section class="special" id="special">
+      @@include('template/special.html')
+    </section>
+    <section class="high-rating" id="high-rating">
+      @@include('template/high-rating.html')
+    </section>
+    <section class="oxford" id="oxford">
+      @@include('template/oxford.html')
+    </section>
+    <section class="top-categories" id="top-categories">
+      @@include('template/top-categories.html')
+    </section>
+    <section class="useful" id="useful">
+      @@include('template/useful.html')
+    </section>
+    <section class="feedback" id="feedback">
+      @@include('template/feedback.html')
+    </section>
+  </main>
+
+  <footer class="footer">
+    @@include('template/footer.html')
+  </footer>
+</body>
+
+</html>

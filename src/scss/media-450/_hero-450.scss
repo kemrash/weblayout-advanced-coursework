@@ -1,0 +1,7 @@
+.hero {
+  &__content {
+    &::after {
+      background-image: url("../img/hero-320.webp");
+    }
+  }
+}

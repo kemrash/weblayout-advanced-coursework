@@ -1,0 +1,21 @@
+.card-categorie {
+  padding: 27px 0 26.5px;
+
+  &__list {
+    margin-bottom: auto;
+  }
+
+  &__title {
+    margin-bottom: 37px;
+
+    &_1 {
+      margin-bottom: 31px;
+    }
+  }
+
+  &__pic {
+    margin-bottom: 33px;
+
+    &_1 {margin-bottom: 27px;}
+  }
+}

@@ -1,0 +1,21 @@
+.footer {
+  &__top {
+    padding: 24px 0 21px;
+  }
+
+  &__container {
+    grid-template-columns: repeat(9, 1fr);
+  }
+
+  &__left {
+    grid-column: span 2;
+  }
+
+  &__pic {
+    margin-bottom: 28px;
+  }
+
+  &__nav {
+    grid-column: span 7;
+  }
+}

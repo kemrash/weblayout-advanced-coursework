@@ -1,0 +1,7 @@
+.aside {
+  padding: 15px 0 16px 4px;
+
+  &__list {
+    gap: $aside-gap;
+  }
+}

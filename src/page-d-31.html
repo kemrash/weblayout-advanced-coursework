@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Диван тканевый прямой “D-31”. SitDownPls - интернет-магазин мебели.</title>
+  <link href="fonts/OpenSans-Regular.woff2" rel="preload" as="font" type="font/woff2" crossorigin>
+  @@include('template/favicon.html')
+  <link href="img/product-d-31-1-320.webp" rel="preload" media="(max-width: 320px)" as="image" type="image/webp">
+  <link href="img/product-d-31-1-768.webp" rel="preload" media="(min-width: 321px) and (max-width: 1023px)" as="image"
+    type="image/webp">
+  <link href="img/product-d-31-1-1024.webp" rel="preload" media="(min-width: 1024px) and (max-width: 1366px)" as="image"
+    type="image/webp">
+  <link href="img/product-d-31-1-1920.webp" rel="preload" media="(min-width: 1367px)" as="image" type="image/webp">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/page-item-style.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <header class="header">
+    @@include('template/header.html')
+    <div class="container header__container">
+      <nav class="breadcrumb header__breadcrumb header__breadcrumb_page" aria-label="Хлебные крошки">
+        <ul class="list-reset breadcrumb__list">
+          <li class="breadcrumb__item breadcrumb__item_1">
+            <a class="text text_small text_grey link link_grey breadcrumb__link breadcrumb__link_1"
+              href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumb__item breadcrumb__item_2">
+            <a class="text text_small text_grey link link_grey breadcrumb__link breadcrumb__link_2"
+              href="catalog.html">Каталог</a>
+          </li>
+          <li class="breadcrumb__item breadcrumb__item_3">
+            <a class="text text_small text_grey link link_grey breadcrumb__link breadcrumb__link_3" href="#">Диваны</a>
+          </li>
+          <li class="breadcrumb__item breadcrumb__item_4">
+            <a class="text text_small text_grey link link_grey breadcrumb__link breadcrumb__link_4" href="#">Прямые
+              диваны</a>
+          </li>
+          <li class="breadcrumb__item breadcrumb__item_5">
+            <span class="text text_small text_primary-shade breadcrumb__active" aria-current="page">
+              D-31
+            </span>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="product">
+      @@include('template/product.html')
+    </section>
+    <section class="similar">
+      @@include('template/similar.html')
+    </section>
+  </main>
+
+  <footer class="footer">
+    @@include('template/footer.html')
+  </footer>
+</body>
+
+</html>

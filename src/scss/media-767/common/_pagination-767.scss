@@ -1,0 +1,19 @@
+.pagination {
+  @include text-rubber;
+
+  &__list {
+    position: relative;
+    left: -1px;
+  }
+
+  &__item {
+    &_3 {
+      position: relative;
+      left: -1px;
+    }
+  }
+
+  &__link {
+    padding: 5px 10px 5px 9px;
+  }
+}

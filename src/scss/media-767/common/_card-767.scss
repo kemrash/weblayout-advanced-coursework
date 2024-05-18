@@ -1,0 +1,22 @@
+.card {
+  padding: 48px 0 16px;
+
+  &__holder {
+    margin-bottom: 17px;
+    max-height: 266px;
+    height: unset;
+  }
+
+  &__inner {
+    padding: 0px 16px;
+  }
+
+  &__title {
+    font-size: $title-small;
+    line-height: 130%;
+  }
+
+  &__price {
+    margin-bottom: 16px;
+  }
+}

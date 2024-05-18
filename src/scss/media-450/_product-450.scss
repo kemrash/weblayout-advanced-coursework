@@ -1,0 +1,9 @@
+.product {
+  &__left {
+    width: 100%;
+
+    &::after {
+      content: none;
+    }
+  }
+}
